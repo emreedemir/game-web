@@ -98,6 +98,7 @@ const addGoogleFonts = () => {
 };
 
 function App() {
+  
   React.useEffect(() => {
     addGoogleFonts();
   }, []);
